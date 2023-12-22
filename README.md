@@ -3,7 +3,8 @@ A collection of links to tools and tricks for Arch (Linux)
 
 
 ## Need to have's
-[Snapper](https://wiki.archlinux.org/title/snapper) ([Btrfs](https://wiki.archlinux.org/title/Btrfs) only) Snapper stores snapshots of your system so if anything goes wrong you can easliy restore to the last snapshot. I personally use the AUR version [snapper-support](https://aur.archlinux.org/packages/snapper-support) which supports GRUB boot options. Alternavity [snap-pac-grub](https://aur.archlinux.org/packages/snap-pac-grub) should provide the feature to snapper.
+[Snapper](https://wiki.archlinux.org/title/snapper) ([Btrfs](https://wiki.archlinux.org/title/Btrfs) only) Snapper stores snapshots of your system so if anything goes wrong you can easliy restore to the last snapshot. I personally use the AUR version [snapper-support](https://aur.archlinux.org/packages/snapper-support) which supports GRUB boot options. snapper-support installs snapper and pacman hooks to automatically create snapshots on update, install or removed packages.
+Alternavity [snap-pac-grub](https://aur.archlinux.org/packages/snap-pac-grub) should provide the feature to snapper.
 
 [Linux-zen](https://archlinux.org/packages/extra/x86_64/linux-zen/) is a great improvement over the default kernel and is officially support by ARCH
 
